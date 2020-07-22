@@ -36,7 +36,7 @@ double American_Call_Option(double S,double K, double sigma, double r, double de
 
 int main()
 {
-    cout << American_Call_Option(100,105,0.25,0.015, 0.05, 0.5, 50000);
+    cout << American_Call_Option(100,105,0.25,0.015, 0.05, 0.5, 500);
     //S,K,sigma,r,delta,T-t,total time steps
 	return 0;
 }
